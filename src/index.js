@@ -211,7 +211,7 @@ export class ReactNativeModal extends Component {
     const { deviceWidth, deviceHeight } = this.state;
 
     const computedStyle = [
-      { margin: deviceWidth * 0.05, transform: [{ translateY: 0 }] },
+      { margin: deviceWidth * 0, transform: [{ translateY: 0 }] },
       styles.content,
       style,
     ];
